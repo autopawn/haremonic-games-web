@@ -2,7 +2,7 @@ name: Vite/Vue CI
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "live" ]
 
 jobs:
   build:
