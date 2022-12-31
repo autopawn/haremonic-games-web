@@ -36,15 +36,6 @@
 
 
 <style scoped>
-@import url("https://fonts.googleapis.com/css2?family=Lato");
-@import url('https://fonts.googleapis.com/css2?family=Merriweather');
-
-body {
-  margin: 0;
-	padding: 0;
-  border: 0;
-  vertical-align: baseline;
-}
 
 section#banner {
   background-image: url('@/assets/images/banner.png');
@@ -65,6 +56,7 @@ article#slider {
 
 article.portfolio-item {
   background-size: cover;
+  background-attachment: fixed;
   padding: 4em;
 }
 
@@ -97,13 +89,4 @@ img.store-btn {
   padding: 10px;
 }
 
-p {
-  font-family: Lato;
-  font-weight: normal;
-}
-
-h1,h2,h3,h4,h5,h6 {
-  font-family: Merriweather;
-  font-weight: bolder;
-}
 </style>

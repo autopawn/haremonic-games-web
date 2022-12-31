@@ -31,8 +31,7 @@ import PortfolioSection from './components/PortfolioSection.vue'
       <div class="row">
         <div class="col-4 col-6-medium col-12-small">
           <section id="subscription">
-            <h3>Get notified when we release new games.</h3>
-            This is just to notify you when we release new stuff. We wont spam you!
+            <h3>Subscribe to get notified of new releases</h3>
             <form action="https://form2channel.com/?apikey=0gfB2YqtVNLdkoiHSAe5Wi5yxPdSrN" method="POST">
               <input name="formto_redirect" type="hidden" value="https://haremonic.games"/>
               <textarea name="formto_honey" style="display: inline; width: 0px; height: 0px; border: 0; padding: 0; margin: 0"/>
@@ -58,8 +57,10 @@ import PortfolioSection from './components/PortfolioSection.vue'
             </ul>
             <ul class="contact">
               <li>
+                <address>
                 <h3>Mail</h3>
                 <p><a href="mailto:contact@haremonic.games">contact@haremonic.games</a></p>
+              </address>
               </li>
             </ul>
           </section>
